@@ -1,0 +1,35 @@
+- [x] Initiate [project repo](https://github.com/Marktawa/newsapp)
+- [x] Update article meta images
+- [x] Create Dropbox paper draft
+- [x] Update outline
+- [x] Update prerequisites
+- [ ] Set up Strapi Backend
+  - [x] Scaffold Strapi project
+  - [x] Install Strapi i18n plugin
+  - [x] Register Admin user
+  - [ ] Build Strapi collections
+  - [ ] Adding languages
+  - [ ] Seeding our database
+  - [ ] Let's add news content for French locale
+  - [ ] Open access to the News posts
+- [ ] Test Strapi Backend 
+  - [ ] Get all News posts
+  - [ ] Adding a news item
+- [ ] Set up React Frontend
+  - [ ] Scaffold React app
+  - [ ] Build the components
+    - [ ] Set up
+    - [ ] Header component
+    - [ ] NewsList component
+    - [ ] NewsView component
+    - [ ] NewsCard component
+    - [ ] AddNewsDialog component
+  - [ ] Add styling
+- [ ] Test app
+- [ ] Conclusion
+- [ ] Test repo
+- [ ] 1st Proofread
+- [ ] Grammarly Check
+- [ ] Hemmingwayapp Check
+- [ ] 2nd Proofread
+- [ ] Ready for Review

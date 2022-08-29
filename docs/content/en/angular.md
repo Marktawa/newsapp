@@ -1,0 +1,5 @@
+It’s that time again, friends — we’re back with a new release and we can’t wait to share all the great updates and features waiting for you in Angular v12.
+
+Before we dive into those updates, let’s check in on the Angular journey. A vital key to Angular’s future is Ivy and what it unlocks for the platform. We have been working over recent releases towards the goal of converging the Angular ecosystem on Ivy. We like to call this approach “Ivy Everywhere”.
+
+Here are the changes we are making to enable this transition.

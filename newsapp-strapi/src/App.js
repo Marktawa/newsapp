@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+/* /newsapp/newsapp-strapi/src/App.js */
+
+import "./App.css";
+import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
+import Header from "./components/Header";
+import NewsList from "./pages/NewsList";
+import NewsView from "./pages/NewsView";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <div className="container">
+        <main className="main">
+          <BrowserRouter>
+            <Switch>
+              <Route path="/news">
+                <NewsList />
+              </Route>
+              <Route path="/newsview/:id">
+                <NewsView />
+              </Route>
+              <Route exact path="/">
+                <Redirect to="/news" />
+              </Route>
+              <Route path="*">
+                <NewsList />
+              </Route>{" "}
+            </Switch>
+          </BrowserRouter>
+        </main>
+      </div>
+    </>
   );
 }
 

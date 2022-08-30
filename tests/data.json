@@ -1,0 +1,9 @@
+{
+    "data": {
+        "title": "Nouvelles fonctionnalités de Vue js et changements de rupture - Présentation de Vue 3",
+        "body": "Avec la sortie d'une nouvelle version majeure du noyau, toutes les autres parties du cadre devaient progresser ensemble. Nous devions également fournir une voie de migration pour les utilisateurs de Vue 2. Il s'agissait d'une entreprise massive pour une équipe dirigée par la communauté comme Vue. Lorsque le noyau de Vue 3 était prêt, la plupart des autres parties du framework étaient soit en version bêta, soit en attente de mise à jour. Nous avons décidé d'aller de l'avant et de publier le noyau afin que les premiers utilisateurs, les auteurs de bibliothèques et les frameworks de niveau supérieur puissent commencer à construire avec lui pendant que nous travaillions sur le reste du framework.\n\n Dans le même temps, nous avons conservé Vue 2 comme valeur par défaut pour la documentation et les installations npm. En effet, nous savions que pour de nombreux utilisateurs, Vue 2 offrait toujours une expérience plus cohérente et plus complète jusqu'à ce que d'autres parties de Vue 3 soient affinées.",
+        "writtenBy": "CJ",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1920px-Vue.js_Logo_2.svg.png",
+        "locale": "fr-FR"
+    }
+}
